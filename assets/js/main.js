@@ -350,8 +350,10 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          /* ---------------------------------------------- */
 
         $(function(){
-            $(".video-player").mb_YTPlayer();
+            //$(".video-player").mb_YTPlayer();
         });
+
+
 
         $('#video-play').click(function(event) {
             event.preventDefault();
@@ -484,7 +486,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          ================================================================*/
 
         $("#requestACall").submit(function (e) {
-
+			console.log('Request A Call');
             e.preventDefault();
             var $ = jQuery;
 
@@ -565,7 +567,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          /* ---------------------------------------------- */
 
         $('#subscription-form').submit(function(e) {
-
+			console.log('Subscribe form ajax');
             e.preventDefault();
             var $form           = $('#subscription-form');
             var submit          = $('#subscription-form-submit');
