@@ -1,6 +1,6 @@
 <?php
 
-$to = 'average.computing@gmail.com';  // please change this email id
+$to = '[email&#160;protected]';  // please change this email id
 
 $errors = array();
 // print_r($_POST);

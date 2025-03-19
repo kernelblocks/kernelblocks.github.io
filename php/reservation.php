@@ -50,7 +50,7 @@
       $people = $_POST['people'];
       $email = $_POST['email'];
       $from = $email;
-      $to = 'average.computing@gmail.com';  // please change this email id
+      $to = '[email&#160;protected]';  // please change this email id
       $subject = 'Table Booking';
       
       $body = "From: E-Mail: $email\n Date: $date\n Time: $time\n Number of people: $people";
@@ -77,3 +77,7 @@
       $result .= '</div>';
 
       echo $result;
+		die();
+
+
+?>
